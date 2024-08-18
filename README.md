@@ -1,6 +1,6 @@
 # AXera-Pi 2 User Manual
 
-[Web 预览](https://axera-pi-zero-docs-cn.readthedocs.io/zh-cn/latest/index.html)
+[Web 预览](https://axera-pi-2-docs-cn.readthedocs.io/zh-cn/latest/index.html)
 
 ## 1. 项目背景
 
