@@ -12,12 +12,12 @@
 二次开发和快速量产。帮助用户在智能家居应用和其他 AIOT 项目中发挥更大的价值。
 
 已支持 Sensor
+
 - **OS04A10**
 
 ![](./media/board/board.jpg)
 
 ## 规格
-<title>Document</title>
 
 | AXera-Pi 2 | 规格 | 
 | --- | --- |
@@ -34,26 +34,24 @@
 | 内存 | 4GiB LPDDR4X|
 | 存储 | 8GiB EMMC|
 | 接口 | 1 x MIPI CSI 4-lane<br />1 x 10/100 RJ45 网口<br />1 x USB2.0<br />1 x TF 卡槽<br />RTC 电池接口<br />GPIO接口<br />2 x 按键（BOOT、RESET）<br />1 x LED<br />DC 5V（USB 供电） |
-| 环境 | 工作温度：-40°C ~ 85°C<br /> |
+| 环境 | 工作温度：-40°C ~ 85°C |
 | 功耗 | 1.5W |
 | 结构 | 85 × 56 mm |
 
 ## 特点
-<p><font size="4"><b>高性价比</font></b></p>
-<ul>
-<li>内置双核 64 位高性能 ARM CPU;</li>
-<li>内置 AI 算力 12.8 TOPs INT4 或 3.2 TOPs INT8;</li>
-<li>内置 AI-ISP，支持 500 万像素，支持 3A、3DNR、HDR、图像增强、去雾功能和鱼眼矫正算法;</li>
-<li>内置 Audio Codec、ePHY。</li>
-</ul>
+### 高性价比
 
-<font size="4"><b>易部署</font></b>
-<ul>
-<li>USB Type-C 供电&调试;</li>
-<li>Ubuntu/Linux 系统;</li>
-<li>丰富扩展接口;</li>
-<li>软硬件资料丰富，开发者社区活跃。</li>
-</ul>
+- 内置双核 64 位高性能 ARM CPU;
+- 内置 AI 算力 12.8 TOPs INT4 或 3.2 TOPs INT8;
+- 内置 AI-ISP，支持 500 万像素，支持 3A、3DNR、HDR、图像增强、去雾功能和鱼眼矫正算法;
+- 内置 Audio Codec、ePHY。
+
+### 易部署
+
+- USB Type-C 供电&调试;
+- Ubuntu/Linux 系统;
+- 丰富扩展接口;
+- 软硬件资料丰富，开发者社区活跃。
 
 ## 资料汇总
 
@@ -76,13 +74,3 @@
 - QQ技术交流群
 
     - 139953715
-
-## 应用场景
-<ul>
-<li>智能AIOT</li>
-<li>智能机器人</li>
-<li>智能家居</li>
-<li>智慧教育</li>
-<li>智慧社区</li>
-<li>智能制造</li>
-</ul>
