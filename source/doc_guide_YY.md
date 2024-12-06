@@ -51,9 +51,9 @@
 
 爱芯派2（AXera Pi 2）提供了网口、USB Type-C、HDMI、MIPI、TF卡槽、40PIN GPIO接口等功能接口，方便用户进行图像多媒体、深度学习算法等应用的开发和测试；开发板接口布局如下：
 
-![图片描述](media\board\typeC_硬件布局.png)
+![图片描述](media/board/typeC_硬件布局.png)
 
-![图片描述](media\board\typeC_硬件布局反面.png)
+![图片描述](media/board/typeC_硬件布局反面.png)
 
 **电源接口**
 
@@ -156,7 +156,7 @@ USB主从模式切换完全由硬件电路实现；
 
 爱芯派2（AXera—Pi 2）提供一组40pin header接口，支持GPIO、UART、I2C、SPI、I2S等多种接口；
 
-![图片描述](media\board\40PIN.png)
+![图片描述](media/board/40PIN.png)
 
 ### **1.2 系统烧录**
 
@@ -198,9 +198,9 @@ USB主从模式切换完全由硬件电路实现；
 
 镜像文件下载，需通过爱芯派2（AXera—Pi 2）官方渠道提供；
 
-下载完成后，解压出系统烧录的axp文件，如![图片描述](media\board\axp.png)
+下载完成后，解压出系统烧录的axp文件，如![图片描述](media/board/axp.png)
 
-下载完成后，SD卡烧写文件，如![图片描述](media\board\烧写4.png)
+下载完成后，SD卡烧写文件，如![图片描述](media/board/烧写4.png)
 
 **系统烧录流程**
 
@@ -228,11 +228,11 @@ AXDL是运行在windows 10（32/64）操作系统上的应用程序，用于FLAS
 
 连接位置如图所示：
 
-![图片描述](media\board\Type-C版刷机.png)
+![图片描述](media/board/Type-C版刷机.png)
 
 安装完成之后，Windows设备管理器显示如下：
 
-![图片描述](media\board\usb驱动.png)
+![图片描述](media/board/usb驱动.png)
 
 **烧写步骤**
 
@@ -242,17 +242,17 @@ axp包支持对镜像文件计算MD5或者CRC，并在工具加载zxp包时进�
 
 步骤1：双击AXDL.exe运行工具，界面显示如图所示：
 
-![图片描述](media\board\axdl1.png)
+![图片描述](media/board/axdl1.png)
 
-步骤2：工具栏单击axp加载按钮![图片描述](media\board\axdl2.png)，选择.axp镜像包文件![图片描述](media\board\axdl3.png)
+步骤2：工具栏单击axp加载按钮![图片描述](media/board/axdl2.png)，选择.axp镜像包文件![图片描述](media/board/axdl3.png)
 
-axp加载中![图片描述](media\board\axdl4.png)
+axp加载中![图片描述](media/board/axdl4.png)
 
-步骤3：工具栏单击“设置”![图片描述](media\board\axdl5.png)按键，在“Setting”页面AXDL将axp镜像包镜像文件释放到本地Temp目录并自动进行配置，加载完成后用户可以鼠标双击或者**右键单击**镜像文件，激活文件选择框重新选择下载镜像文件![图片描述](media\board\axdl6.png)
+步骤3：工具栏单击“设置”![图片描述](media/board/axdl5.png)按键，在“Setting”页面AXDL将axp镜像包镜像文件释放到本地Temp目录并自动进行配置，加载完成后用户可以鼠标双击或者**右键单击**镜像文件，激活文件选择框重新选择下载镜像文件![图片描述](media/board/axdl6.png)
 
 步骤4：爱芯派2（AXera—Pi 2）目前仅支持USB下载，切换到“Option”页面，配置如图所示：
 
-![图片描述](media\board\axdl7.png)
+![图片描述](media/board/axdl7.png)
 
 > [!WARNING]
 >
@@ -260,21 +260,21 @@ axp加载中![图片描述](media\board\axdl4.png)
 >
 > 爱芯派2（AXera—Pi 2）目前仅支持USB下载，不要勾选“Uart Download”和"Upgrade Frequency"
 
-步骤5：单击“OK”确认设置，在工具栏单击“开始”![图片描述](media\board\axdl8.png)按钮启动下载，此时给开发板上电，下载工具将自动与开发板握手交互，开始下载。
+步骤5：单击“OK”确认设置，在工具栏单击“开始”![图片描述](media/board/axdl8.png)按钮启动下载，此时给开发板上电，下载工具将自动与开发板握手交互，开始下载。
 
 具体连接如图所示：
 
-![图片描述](media\board\Type-C版刷机.png)
+![图片描述](media/board/Type-C版刷机.png)
 
 然后同时按住下载（DOWNLOAD）和复位（RESET），随后松开复位（RESET），等几秒后，再松开下载（DOWNLOAD），之后请等待30秒左右工具上面会出行进度条，如下图所示：
 
-![图片描述](media\board\Type-C版下载按键.png)
+![图片描述](media/board/Type-C版下载按键.png)
 
-![图片描述](media\board\烧写2.png)
+![图片描述](media/board/烧写2.png)
 
 步骤6：等待几分钟后，下载完成结果如下图所示：
 
-![图片描述](media\board\烧写3.png)
+![图片描述](media/board/烧写3.png)
 
 #### **1.2.2  SD卡烧录方式**
 
@@ -290,21 +290,21 @@ balenaEtcher是一款支持Windows/Mac/Linux等多平台的PC端启动盘制作�
 
 1，打开balenaEtcher工具，点击`从文件烧录`按钮，选择解压出来的`ax_pi2.img.zip`文件作为烧录镜像
 
-![图片描述](media\board\SD卡烧录.png)
+![图片描述](media/board/SD卡烧录.png)
 
 2，点击`选择目标磁盘`按钮，选择对应的Micro SD存储卡作为目标存储设备
 
-![图片描述](media\board\SD卡烧录1.png)
+![图片描述](media/board/SD卡烧录1.png)
 
-![图片描述](media\board\SD卡烧录2.png)
+![图片描述](media/board/SD卡烧录2.png)
 
 3，点击`现在烧录！`按钮开始烧录，待工具提示`烧录完成！`时，表示镜像烧录完成，可以关闭balenaEtcher并取出存储卡
 
-![图片描述](media\board\SD卡烧录3.png)
+![图片描述](media/board/SD卡烧录3.png)
 
-![图片描述](media\board\SD卡烧录4.png)
+![图片描述](media/board/SD卡烧录4.png)
 
-![图片描述](media\board\SD卡烧录5.png)
+![图片描述](media/board/SD卡烧录5.png)
 
 > [!WARNING]
 >
@@ -314,7 +314,7 @@ balenaEtcher是一款支持Windows/Mac/Linux等多平台的PC端启动盘制作�
 
 5，此时可通过串口，查看烧录状态，烧录完成如下图所示：
 
-![图片描述](media\board\SD卡烧录8.png)
+![图片描述](media/board/SD卡烧录8.png)
 
 6，如果没有进入SD卡烧录过程，请使用如下方法重置SD卡烧录
 
@@ -323,9 +323,9 @@ balenaEtcher是一款支持Windows/Mac/Linux等多平台的PC端启动盘制作�
 > - 通过串口，输入fw_printenv命令，可查看SD卡烧写状态，如下图所示
 > - 如果sdupdate=finish，可输入fw_sdupdate，重置SD烧写，如下图所示,fdtcontroladdr=bbdc75a0，表示可重新进行SD卡烧写，此时重新板卡上电即可
 
-![图片描述](media\board\SD卡烧录6.png)
+![图片描述](media/board/SD卡烧录6.png)
 
-![图片描述](media\board\SD卡烧录7.png)
+![图片描述](media/board/SD卡烧录7.png)
 
 > [!WARNING]
 >
@@ -342,7 +342,7 @@ balenaEtcher是一款支持Windows/Mac/Linux等多平台的PC端启动盘制作�
 
 Ubuntu Desktop版本系统启动完成后，会通过HDMI接口在显示器上输出系统桌面，如下图所示：
 
-![图片描述](media\board\系统.jpg)
+![图片描述](media/board/系统.jpg)
 
 **常见问题**
 
@@ -364,7 +364,7 @@ Ubuntu Desktop版本系统启动完成后，会通过HDMI接口在显示器上�
 
 在使用串口登录前，需要确认开发板串口线跟电脑正确连接，连接方式如下图所示：
 
-![图片描述](media\board\type-C版本debug图片.jpg)
+![图片描述](media/board/type-C版本debug图片.jpg)
 
 串口登录需要借助PC终端工具，目前常用的工具有`Putty`、`MobaXterm`等，用户可根据自身使用习惯来选择；
 
@@ -372,13 +372,13 @@ Ubuntu Desktop版本系统启动完成后，会通过HDMI接口在显示器上�
 
 - 当串口USB转接板首次插入电脑时，需要安装串口驱动；驱动安装完成后，设备管理器可正常识别串口端口，如下图所示：
 
-  ![图片描述](media\board\远程登录串口.png)
+  ![图片描述](media/board/远程登录串口.png)
 
 - 打开`MobaXterm`工具，点击`Session`，然后选择`Serial`
 
 - 配置端口号，例如`COM4`，实际使用的串口号以PC识别到的串口号为准。如下图所示：
 
-  ![图片描述](media\board\远程登录串口设置.png)
+  ![图片描述](media/board/远程登录串口设置.png)
 
   
 
