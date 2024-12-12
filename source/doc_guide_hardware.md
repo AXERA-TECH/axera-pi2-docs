@@ -4,9 +4,9 @@
 
 爱芯派2（AXera Pi 2）提供了网口、USB Type-C、HDMI、MIPI、TF卡槽、40PIN GPIO接口等功能接口，方便用户进行图像多媒体、深度学习算法等应用的开发和测试；开发板接口布局如下：
 
-![图片描述](media\board\typeC_硬件布局.png)
+![](media/board/typeC_硬件布局.png)
 
-![图片描述](media\board\typeC_硬件布局反面.png)
+![](media/board/typeC_硬件布局反面.png)
 
 **电源接口**
 
@@ -105,13 +105,13 @@ USB主从模式切换完全由硬件电路实现；
 
 ## 管脚定义
 
-![图片描述](media\board\40PIN.png)
+![](media/board/40PIN.png)
 
 
 
 ## 实物图
 
-![图片描述](media\board\Type-C版刷机.png)
+![](media/board/Type-C版刷机.png)
 
 ## 硬件资料
 
