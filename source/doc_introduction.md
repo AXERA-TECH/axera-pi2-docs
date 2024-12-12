@@ -2,7 +2,7 @@
 
 ## 购买方式
 
-- [淘宝-以悦科技]()
+- [淘宝-以悦科技](https://yiyue-tech.taobao.com/index.htm)
 
 ## 爱芯派2
 
@@ -11,11 +11,19 @@
 爱芯派 2 提供稳定易用的 SDK 软件开发包，方便用户低成本评估、
 二次开发和快速量产。帮助用户在智能家居应用和其他 AIOT 项目中发挥更大的价值。
 
+![](/media/board/product_image.jpg)
+
+![](/media/board/product_image1.jpg)
+
+![](/media/board/board.jpg)
+
 已支持 Sensor
 
 - **OS04A10**
 
-![](./media/board/board.jpg)
+![](/media/board/product_image2.jpg)
+
+![](/media/board/product_image3.jpg)
 
 ## 规格
 
