@@ -19,7 +19,7 @@
 
 ## 规格
 
-| AXera-Pi 2 | 规格 | 
+| AXera-Pi 2 | 规格 |
 | --- | --- |
 | SoC | AX630C |
 | 处理器 | 2 x Arm Cortex-A53@1.2GHz |
@@ -33,7 +33,7 @@
 | 其他功能 | 支持 CBR/VBR/AVBR/CVBR 多种码率控制模式<br />支持 8 个 ROI 编码 |
 | 内存 | 4GiB LPDDR4X|
 | 存储 | 8GiB EMMC|
-| 接口 | 1 x MIPI CSI 4-lane<br />1 x 10/100 RJ45 网口<br />1 x USB2.0<br />1 x TF 卡槽<br />RTC 电池接口<br />GPIO接口<br />2 x 按键（BOOT、RESET）<br />1 x LED<br />DC 5V（USB 供电） |
+| 接口 | 1 x MIPI CSI 4-lane<br />1 x 10/100 RJ45 网口<br />1 x HDMI<br />1 x TF 卡槽<br />1 x Uart<br />2 x Type-C<br />ipex1 WiFi BT天线<br />RTC 电池接口<br />GPIO接口<br />2 x 按键（BOOT、RESET）<br />1 x LED<br />12V DC供电 |
 | 环境 | 工作温度：-40°C ~ 85°C |
 | 功耗 | 1.5W |
 | 结构 | 85 × 56 mm |
