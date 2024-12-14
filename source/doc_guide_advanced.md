@@ -97,6 +97,7 @@ axp包支持对镜像文件计算MD5或者CRC，并在工具加载zxp包时进�
 
 步骤1：双击AXDL.exe运行工具，界面显示如图所示：
 
+
 ![图片描述](media/board/axdl1.png)
 
 步骤2：工具栏单击axp加载按钮![图片描述](media/board/axdl2.png)，选择.axp镜像包文件![图片描述](media/board/axdl3.png)
@@ -245,9 +246,4 @@ Ubuntu Desktop版本系统启动完成后，会通过HDMI接口在显示器上�
   | 停止位（Stop bits）  |   1    |
   | 流控（Flow Control） |   无   |
 
-  
-
 - 点击如`OK`，登录设备
-
-### 文件说明
-
